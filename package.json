@@ -1,0 +1,31 @@
+{
+  "name": "bubble-submarine",
+  "version": "1.0.0",
+  "description": "A gentle Three.js underwater game for young children",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "verify": "node tests/verify.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nepdeep/sea.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nepdeep/sea/issues"
+  },
+  "homepage": "https://github.com/nepdeep/sea#readme",
+  "dependencies": {
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.63.0",
+    "vite": "^5.4.21"
+  },
+  "private": true,
+  "type": "module"
+}
